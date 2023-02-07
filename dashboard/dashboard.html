@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard-Quantum</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <nav>
+                <label for="check" class="checkbtn">
+                     <li><img src="icons/alerts.svg" alt="" style="width:24px; height:24px;"></li>
+                    <li><img src="icons/announcements.svg" alt=""  style="width:24px; height:24px;"></li>
+                    <li><img src="icons/user-icon.png" alt="" style="width:32px; height:32px;"></li>
+                    <img src="icons/hamburger-menu.svg" alt="" style="width:32px; height:32px;">
+                   
+                </label>
+                <img class="logo" src="icons/logo used in header.svg" alt="Quantum logo">
+                <ul>
+                    <li><a class="active" href="index.html">DASHBOARD</a></li>
+                    <li><a href="about.html">CONTENT</a></li>
+
+                    <li><a href="about.html">USERS</a></li>
+
+                    <li><a href="about.html">REPORTS</a></li>
+                    <li><a href="about.html">ADMIN</a></li>
+
+                    <li><img src="icons/alerts.svg" alt="" style="margin: -6px 0"></li>
+                    <li><img src="icons/announcements.svg" alt="" style="margin: -3px 0"></li>
+                    <li><img src="icons/user-icon.png" alt="" style="width: 32px; height:32px; margin: -8px 0"></li>
+
+                   
+                    <!-- <li><img src="images/logo.png" class="logoDesign" alt=""></li> -->
+                </ul>
+            </nav>
+        </header>
+
+        <div class="sub-container">
+            <!-- Sub-Nav------------------------------------------ -->
+            <div class="sub-nav">
+                <div class="column" id="bottom-border">
+                    <img class="iconimg" src="icons/courses.svg" alt="">
+                    <div class="text-div">
+                    <span style="font-weight:bold; font-size:24px;">4</span> courses
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="iconimg" src="icons/classes.svg" alt="">
+                    <div class="text-div">
+                        <span style="font-weight:bold; font-size:24px;">4</span> classes
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Sorting Bar--------------------------- -->
+            <div class="sorting-bar">
+                <h6>
+                    Showing 4 of 4 courses
+                </h6>
+                
+            </div>
+            <span><div class="select select-state">
+                <img class="sort-icon" src="icons/sort.svg" alt="">
+                
+                <select name="sortby" id="sortby">
+                    <option class="text1" value="course name">Course Name</option>
+                </select>
+                <label for="sort by">Sort By:</label>
+            </div>
+
+            <!-- Course cards------------------------------------ -->
+            <div class="course-cards">
+                <div class="card" id="card-1">
+                    <img class="card-image" src="images/imageMask-1.svg" alt="acceleration">
+                    <h3>Acceleration</h3>
+                    <img class="favourite" src="icons/favourite.svg" alt="favourite">
+                    
+                    <div class="subject-grade-div">
+                        <span class="subject-grade">Physics </span>
+                        <span class="devider">|</span>
+                        <span class="subject-grade"> Grade 7</span>
+                        <span class="grade-add">+2</span>
+                    </div>
+
+                    <div class="lesson">
+                        <span class="gap">
+                            <span class="number">4 </span>
+                            <span>Units</span>
+                        </span>
+
+                        <span class="gap">
+                            <span class="number">18 </span>
+                            <span>Lessons</span>
+                        </span>
+
+                        <span class="gap">
+                            <span class="number">24 </span>
+                            <span>Topics</span>
+                        </span>
+                    </div>
+
+                    <select name="classes" id="classes">
+                        <option class="text1" value="Mr. Frank's Class B">Mr. Frank's Class B</option>
+                    </select>
+
+                    <div class="student-date-div">
+                        <span class="student-date">50 Students </span>
+                        <span class="devider">|</span>
+                        <span class="student-date"> 21-Jan-2020 - 21-Aug-2020</span>
+                    </div>
+
+                    <div class="card-bottom-bar">
+                        <img src="icons/preview.svg" alt="preview">
+                        <img src="icons/manage course.svg" alt="manage course">
+                        <img src="icons/grade submissions.svg" alt="">
+                        <img src="icons/reports.svg" alt="reports">
+                    </div>
+
+                </div>
+                <div class="card" id="card-2">
+                    <img class="card-image" src="images/imageMask-2.svg" alt="Displacement, Velocity and Speed">
+                    <h3>Displacement, Velocity and Speed</h3>
+                    <img class="favourite" src="icons/favourite.svg" alt="favourite">
+                    
+                    <div class="subject-grade-div">
+                        <span class="subject-grade">Physics </span>
+                        <span class="devider">|</span>
+                        <span class="subject-grade"> Grade 6</span>
+                        <span class="grade-add">+3</span>
+                    </div>
+
+                    <div class="lesson">
+                        <span class="gap">
+                            <span class="number">2 </span>
+                            <span>Units</span>
+                        </span>
+
+                        <span class="gap">
+                            <span class="number">15 </span>
+                            <span>Lessons</span>
+                        </span>
+
+                        <span class="gap">
+                            <span class="number">20 </span>
+                            <span>Topics</span>
+                        </span>
+                    </div>
+
+                    <select name="clasess" id="classes">
+                        <option value="No Classes"><span>No Classes</span></option>
+                    </select>
+
+                    <div class="card-bottom-bar">
+                        <img src="icons/preview.svg" alt="preview">
+                        <img src="icons/manage course.svg" alt="manage course" style="opacity: 0.4;">
+                        <img src="icons/grade submissions.svg" alt="" style="opacity: 0.4;">
+                        <img src="icons/reports.svg" alt="reports">
+                    </div>
+
+                </div>
+                <div class="card" id="card-3">
+                    <img class="card-image" src="images/imageMask.svg" alt="Displacement, Velocity and Speed">
+                    <h3>Introduction to Biology:</h3>
+                    <img class="favourite" src="icons/favourite.svg" alt="favourite">
+                    
+                    <div class="subject-grade-div">
+                        <span class="subject-grade">Biology </span>
+                        <span class="devider">|</span>
+                        <span class="subject-grade"> Grade 4</span>
+                        <span class="grade-add">+1</span>
+                    </div>
+
+                    <div class="lesson">
+                        <span class="gap">
+                            <span class="number">5 </span>
+                            <span>Units</span>
+                        </span>
+
+                        <span class="gap">
+                            <span class="number">16 </span>
+                            <span>Lessons</span>
+                        </span>
+
+                        <span class="gap">
+                            <span class="number">22 </span>
+                            <span>Topics</span>
+                        </span>
+                    </div>
+
+                    <select name="clasess" id="classes">
+                        <option class="text2" value="all Classes">All Classes</option>
+                    </select>
+
+                    <div class="student-date-div">
+                        <span class="student-date">300 Students </span>
+                    </div>
+
+                    <div class="card-bottom-bar">
+                        <img src="icons/preview.svg" alt="preview">
+                        <img src="icons/manage course.svg" alt="manage course" style="opacity: 0.4;">
+                        <img src="icons/grade submissions.svg" alt="grade" style="opacity: 0.4;">
+                        <img src="icons/reports.svg" alt="reports">
+                    </div>
+                </div>
+                <div class="card" id="card-4">
+                    <div class="expired">
+                        Expired
+                    </div>
+                    <img class="card-image" src="images/imageMask-3.svg" alt="Introduction to High School Mathematics">
+                    <h3>Introduction to High School</h3>
+                    <img class="favourite" src="icons/favourite.svg" alt="favourite">
+                    
+                    <div class="subject-grade-div">
+                        <span class="subject-grade">Mathematics </span>
+                        <span class="devider">|</span>
+                        <span class="subject-grade"> Grade 8</span>
+                        <span class="grade-add">+3</span>
+                    </div>
+
+                    <select name="classes" id="classes">
+                        <option class="text1" value="Mr. Frank's Class A">Mr. Frank's Class A</option>
+                    </select>
+
+                    <div class="student-date-div">
+                        <span class="student-date">44 Students </span>
+                        <span class="devider">|</span>
+                        <span class="student-date"> 14-Oct-2019 - 20-Oct-2020</span>
+                    </div>
+
+                    <div class="card-bottom-bar">
+                        <img src="icons/preview.svg" alt="preview">
+                        <img src="icons/manage course.svg" alt="manage course">
+                        <img src="icons/grade submissions.svg" alt="">
+                        <img src="icons/reports.svg" alt="reports">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Footer------------------------------------ -->
+        <div class="about-contact-div">
+            <span class="about-contact">About </span>
+            <span class="devider">|</span>
+            <span class="about-contact"> Contact Us</span>
+        </div>
+    
+        <footer class="footer">
+            <img src="icons/logo used in footer.svg" alt="Quantum logo">
+            <span class="devider">|</span>
+            <div>
+                <span>Copyright &copy; 2020-2021 </span>
+                <span class="zeus">Zeus Systems Pvt. Ltd.</span> 
+                <span>All rights reserved.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
