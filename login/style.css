@@ -1,0 +1,244 @@
+body {
+  background: #eeeeee;
+  margin: 0%;
+  font-family: "Quicksand";
+}
+
+#header {
+  background-color: #25313f;
+  height: 47px;
+}
+#header #header-logo {
+  margin-left: 29px;
+  margin-top: 4px;
+  padding-bottom: 11px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 488px;
+  max-height: 550px;
+  width: 488px;
+  height: 550px;
+  border: 1px solid #ffffff;
+  margin-top: 50px;
+  border-top: 4px solid #3ac7ec;
+  border-radius: 2px 2px 0px 0px;
+}
+.container .head-content {
+  display: flex;
+}
+.container .head-content #back-img {
+  margin-left: 32px;
+  margin-top: 22px;
+  width: 17px;
+  height: 26px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 26px/28px Material-Design-Iconic-Font;
+}
+.container .head-content #login-head {
+  width: 236px;
+  height: 30px;
+  /* UI Properties */
+  text-align: center;
+  font: 24px/28px Quicksand;
+  font-size: 24px;
+  margin-top: 16px;
+  margin-left: 77px;
+}
+.container .radio-btn {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.container .radio-btn #school {
+  margin-left: 32px;
+}
+.container .radio-btn #district-label,
+.container .radio-btn #school-label {
+  width: 53px;
+  height: 20px;
+  text-align: left;
+  font: normal normal medium 16px/20px Quicksand;
+}
+.container .state-selection {
+  margin-top: 25px;
+  margin-left: 32px;
+}
+.container .state-selection #state {
+  width: 34px;
+  height: 15px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #666666;
+}
+.container .district-selection {
+  margin-top: 36px;
+  margin-left: 32px;
+}
+.container .district-selection #district {
+  width: 34px;
+  height: 15px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #666666;
+}
+.container select {
+  width: 390px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  border-bottom: 1px solid black;
+}
+.container select #opt-1 {
+  margin-left: 0px;
+}
+.container .user-name {
+  width: 423px;
+  height: 25px;
+  margin-top: 61px;
+  margin-left: 32px;
+}
+.container .user-name #user {
+  width: 390px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  margin-right: 33px;
+  height: 20px;
+  text-align: left;
+  font: normal normal medium 16px/20px Quicksand;
+  color: #666666;
+  letter-spacing: 0px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+.container .user-name #forgot-user {
+  font-size: 14px;
+  margin-right: 33px;
+  margin-top: 5px;
+  text-align: right;
+  font: normal normal medium 14px/18px Quicksand;
+  letter-spacing: 0px;
+  color: #1f7a54;
+  text-transform: uppercase;
+}
+.container .password {
+  margin-top: 33px;
+  margin-left: 32px;
+}
+.container .password #pass {
+  width: 390px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  margin-right: 33px;
+  height: 20px;
+  text-align: left;
+  font: normal normal medium 16px/20px Quicksand;
+  color: #666666;
+  letter-spacing: 0px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+.container .password #forgot-pass {
+  width: 390px;
+  font-size: 14px;
+  margin-right: 33px;
+  margin-top: 5px;
+  text-align: right;
+  font: normal normal medium 14px/18px Quicksand;
+  letter-spacing: 0px;
+  color: #1f7a54;
+  text-transform: uppercase;
+}
+.container .remember {
+  margin-left: 32px;
+  margin-top: 24px;
+  font-size: 16px;
+}
+.container .login {
+  display: flex;
+  justify-content: center;
+}
+.container .login #login-btn {
+  width: 216px;
+  height: 40px;
+  background: #3fd28b 0% 0% no-repeat padding-box;
+  border: none;
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+.links {
+  text-align: center;
+  font: normal normal medium 14px/18px Quicksand;
+  letter-spacing: 0px;
+  color: #1f7a54;
+  margin-top: 32px;
+}
+.links a:link {
+  color: #1f7a54;
+  text-decoration: none;
+}
+.links #about {
+  border-right: 1px solid gray;
+  padding-right: 9px;
+}
+.links #contact {
+  padding-left: 9px;
+}
+
+.footer {
+  background-color: #e0e1e1;
+  margin-top: 16px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer #footer-logo {
+  padding-right: 16px;
+  border-right: 1px solid gray;
+}
+.footer #copyright {
+  padding-left: 9px;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  color: #616161;
+  font-size: 12px;
+}
+.footer #company {
+  margin-left: 8px;
+  font: normal normal bold 12px/16px Quicksand;
+  letter-spacing: 0px;
+  color: #616161;
+  font-size: 12px;
+}
+.footer #rights {
+  font-size: 12px;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  color: #616161;
+  margin-left: 11px;
+}
+
+@media (max-width: 768px) {
+  .links {
+    margin-top: 258px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,210 @@
+body {
+  background: #eeeeee;
+  margin: 0%;
+  font-family: "Quicksand";
+}
+#header {
+  background-color: #25313f;
+  height: 47px;
+}
+#header-logo {
+  margin-left: 29px;
+  margin-top: 4px;
+  padding-bottom: 11px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 488px;
+  max-height: 550px;
+  width: 488px;
+  height: 550px;
+  border: 1px solid #ffffff;
+  margin-top: 50px;
+  border-top: 4px solid #3ac7ec;
+  border-radius: 2px 2px 0px 0px;
+}
+#back-img {
+  margin-left: 32px;
+  margin-top: 22px;
+  width: 17px;
+  height: 26px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 26px/28px Material-Design-Iconic-Font;
+}
+#login-head {
+  width: 236px;
+  height: 30px;
+  /* UI Properties */
+  text-align: center;
+  font: 24px/28px Quicksand;
+  font-size: 24px;
+  margin-top: 16px;
+  margin-left: 77px;
+}
+.head-content {
+  display: flex;
+}
+.radio-btn {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+#school {
+  margin-left: 32px;
+}
+#district-label,
+#school-label {
+  width: 53px;
+  height: 20px;
+  text-align: left;
+  font: normal normal medium 16px/20px Quicksand;
+}
+.state-selection {
+  margin-top: 25px;
+  margin-left: 32px;
+}
+#state,
+#district {
+  width: 34px;
+  height: 15px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #666666;
+}
+select {
+  width: 390px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  border-bottom: 1px solid black;
+}
+#opt-1 {
+  margin-left: 0px;
+}
+.district-selection {
+  margin-top: 36px;
+  margin-left: 32px;
+}
+.user-name {
+  width: 423px;
+  height: 25px;
+  margin-top: 61px;
+  margin-left: 32px;
+}
+#user,
+#pass {
+  width: 390px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  margin-right: 33px;
+  height: 20px;
+  text-align: left;
+  font: normal normal medium 16px/20px Quicksand;
+  color: #666666;
+  letter-spacing: 0px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+#forgot-user,
+#forgot-pass {
+  font-size: 14px;
+  margin-right: 33px;
+  margin-top: 5px;
+  text-align: right;
+  font: normal normal medium 14px/18px Quicksand;
+  letter-spacing: 0px;
+  color: #1f7a54;
+  text-transform: uppercase;
+}
+.password {
+  margin-top: 33px;
+  margin-left: 32px;
+}
+#forgot-pass {
+  width: 390px;
+}
+.remember {
+  margin-left: 32px;
+  margin-top: 24px;
+  font-size: 16px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+}
+#login-btn {
+  width: 216px;
+  height: 40px;
+  background: #3fd28b 0% 0% no-repeat padding-box;
+  border: none;
+  margin-top: 32px;
+  font-size: 14px;
+}
+.links {
+  text-align: center;
+  font: normal normal medium 14px/18px Quicksand;
+  letter-spacing: 0px;
+  color: #1f7a54;
+  margin-top: 32px;
+}
+a:link {
+  color: #1f7a54;
+  text-decoration: none;
+}
+#about {
+  border-right: 1px solid gray;
+  padding-right: 9px;
+}
+#contact {
+  padding-left: 9px;
+}
+.footer {
+  background-color: #e0e1e1;
+  margin-top: 16px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer-logo {
+  padding-right: 16px;
+  border-right: 1px solid gray;
+}
+#copyright {
+  padding-left: 9px;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  color: #616161;
+  font-size: 12px;
+}
+#company {
+  margin-left: 8px;
+  font: normal normal bold 12px/16px Quicksand;
+  letter-spacing: 0px;
+  color: #616161;
+  font-size: 12px;
+}
+#rights {
+  font-size: 12px;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  color: #616161;
+  margin-left: 11px;
+}
+
+@media (max-width:768px){
+    .links{
+        margin-top: 258px;
+    }
+}
