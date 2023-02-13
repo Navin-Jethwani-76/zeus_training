@@ -1,0 +1,130 @@
+[
+  {
+    "image": "../assets/images/imageMask.png",
+    "Title": "Acceleration",
+    "Subject": "Physics",
+    "Grade": 7,
+    "additional-grade": 2,
+    "Units": 4,
+    "Lessons": 18,
+    "Topics": 24,
+    "classOption": ["Mr. Frank Class B", "No Classes", "All Classes"],
+    "Students": 50,
+    "Start": "21-Jan-2021",
+    "End": "21-Aug-2021",
+    "favourite": true,
+    "optionButton": {
+      "preview": true,
+      "manageCourse": true,
+      "gradeSubmissions": true,
+      "reports": true
+    },
+    "isAlive": true
+  },
+  {
+    "image": "../assets/images/imageMask-1.png",
+    "Title": "Displacement, Velocity and Speed",
+    "Subject": "Physics",
+    "Grade": 6,
+    "Units": 2,
+    "Lessons": 15,
+    "Topics": 20,
+    "classOption": ["No Classes", "All Classes", "Mr. Frank Class B"],
+    "Students": 40,
+    "Start": "21-Feb-2021",
+    "End": "21-Sep-2021",
+    "favourite": true,
+    "optionButton": {
+      "preview": true,
+      "manageCourse": false,
+      "gradeSubmissions": false,
+      "reports": true
+    },
+    "isAlive": true
+  },
+  {
+    "image": "../assets/images/imageMask-2.png",
+    "Title": "Introduction to Biology: Micro organisms and how they affec...",
+    "Subject": "Biology",
+    "Grade": 4,
+    "Units": 5,
+    "Lessons": 16,
+    "Topics": 24,
+    "classOption": ["All Classes", "Mr. Frank Class B", "No Classes"],
+    "Students": 300,
+    "Start": "",
+    "End": "",
+    "favourite": true,
+    "optionButton": {
+      "preview": true,
+      "manageCourse": false,
+      "gradeSubmissions": false,
+      "reports": true
+    },
+    "isAlive": true
+  },
+  {
+    "image": "../assets/images/imageMask-3.png",
+    "Title": "Introduction to High School Mathematics",
+    "Subject": "Mathematics",
+    "Grade": 8,
+    "Units": 4,
+    "Lessons": 18,
+    "Topics": 24,
+    "classOption": ["Mr. Frank Class A", "No Classes", "All Classes"],
+    "Students": 44,
+    "Start": "14-Oct-2021",
+    "End": "20-Oct-2022",
+    "favourite": false,
+    "optionButton": {
+      "preview": true,
+      "manageCourse": true,
+      "gradeSubmissions": true,
+      "reports": true
+    },
+    "isAlive": false
+  },
+  {
+    "image": "../assets/images/imageMask-2.png",
+    "Title": "Introduction to Biology: Micro organisms and how they affec...",
+    "Subject": "Biology",
+    "Grade": 4,
+    "Units": 5,
+    "Lessons": 16,
+    "Topics": 24,
+    "classOption": ["All Classes", "Mr. Frank Class B", "No Classes"],
+    "Students": 300,
+    "Start": "",
+    "End": "",
+    "favourite": true,
+    "optionButton": {
+      "preview": true,
+      "manageCourse": false,
+      "gradeSubmissions": false,
+      "reports": true
+    },
+    "isAlive": true
+  },
+  {
+    "image": "../assets/images/imageMask.png",
+    "Title": "Acceleration",
+    "Subject": "Physics",
+    "Grade": 7,
+    "additional-grade": 2,
+    "Units": 4,
+    "Lessons": 18,
+    "Topics": 24,
+    "classOption": ["Mr. Frank Class B", "No Classes", "All Classes"],
+    "Students": 50,
+    "Start": "21-Jan-2021",
+    "End": "21-Aug-2021",
+    "favourite": true,
+    "optionButton": {
+      "preview": true,
+      "manageCourse": true,
+      "gradeSubmissions": true,
+      "reports": true
+    },
+    "isAlive": true
+  }
+]
